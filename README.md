@@ -5,8 +5,8 @@ Interfaces are there to implement different charasteristics of animals (Flyable,
 
 ![Class diagram](https://github.com/supun/singtel-test/blob/master/Capture.PNG)
 
-AnimalFactory class has the createAnimal() method which returns relavant Animal type object (Fish, Bird, Duck etc).
+AnimalFactory class has the createAnimal() method which returns relavant Animal type object (Fish, Bird, Duck Chicken etc).
 
-Test folder includes the testing method to verify each type of Animals
+Test folder includes the testing method to verify each type of Animals and their behaviours.
 
 
