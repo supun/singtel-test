@@ -1,6 +1,8 @@
 # singtel-test
 Animal is the base class because all the creatures belong to animal.
 
+Interfaces are there to implement different charasteristics of animals (Flyable, Walkble etc)
+
 AnimalFactory class has the createAnimal() method which returns relavant Animal type object (Fish, Bird, Duck etc).
 
 Test folder includes the testing method to verify each type of Animals
