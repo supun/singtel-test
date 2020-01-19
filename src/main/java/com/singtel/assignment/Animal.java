@@ -8,6 +8,15 @@ public class Animal implements IAnimal {
 	private boolean male;
     private Size size;
     private Color color;
+    private String languageCode;
+
+	public String getLanguageCode() {
+		return languageCode;
+	}
+
+	public void setLanguageCode(String languageCode) {
+		this.languageCode = languageCode;
+	}
 
 	public boolean isMale() {
 		return male;
