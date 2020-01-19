@@ -3,6 +3,9 @@ package com.singtel.assignment;
 import com.singtel.assignment.bird.Chicken;
 import com.singtel.assignment.bird.Duck;
 import com.singtel.assignment.bird.Parrot;
+import com.singtel.assignment.fish.ClownFish;
+import com.singtel.assignment.fish.Dolphin;
+import com.singtel.assignment.fish.Shark;
 import com.singtel.assignment.util.AnimalType;
 import com.singtel.assignment.util.NeighbourType;
 
@@ -33,6 +36,12 @@ public class AnimalFactory {
 			return new Parrot(NeighbourType.DUCK);
 		case PARROT_NEAR_PHONE:
 			return new Parrot(NeighbourType.PHONE);
+		case SHARK:
+			return new Shark();
+		case CLOWN_FISH:
+			return new ClownFish();
+		case DOLPHIN:
+			return new Dolphin();
 		default:
 			return null;
 		}
