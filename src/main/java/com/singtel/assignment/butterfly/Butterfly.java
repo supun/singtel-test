@@ -32,7 +32,7 @@ public class Butterfly extends Animal {
 		this.state = state;
 	}
 
-	void transform() {
+	public void transform() {
 		this.setCurrentState(new ButterFlyState());
 	}
 

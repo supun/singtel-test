@@ -1,5 +1,6 @@
 package com.singtel.assignment;
 
+import com.singtel.assignment.bird.Bird;
 import com.singtel.assignment.bird.Chicken;
 import com.singtel.assignment.bird.Duck;
 import com.singtel.assignment.bird.Parrot;
@@ -22,6 +23,8 @@ public class AnimalFactory {
 	 */
 	public IAnimal createAnimal(AnimalType type) {
 		switch (type) {
+		case BIRD:
+			return new Bird();
 		case CHICKEN:
 			return new Chicken(Boolean.FALSE);
 		case DUCK:
