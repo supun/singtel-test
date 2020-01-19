@@ -11,6 +11,7 @@ public  class Constants {
 	public static final String FLYING = "I am flying";
 	public static final String NO_FLYING = "I cannot fly";
 	public static final String WALKING = "I am walking";
+	public static final String NO_WALKING = "I am not walking";
 	public static final String SWIMMING = "I am swimming";
 	public static final String JOKING = "I am Joking";
 	public static final String EATING_OTHER_FISH = "I am eating other fish";

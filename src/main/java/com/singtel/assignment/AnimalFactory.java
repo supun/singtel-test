@@ -3,10 +3,14 @@ package com.singtel.assignment;
 import com.singtel.assignment.bird.Chicken;
 import com.singtel.assignment.bird.Duck;
 import com.singtel.assignment.bird.Parrot;
+import com.singtel.assignment.butterfly.ButterFlyState;
+import com.singtel.assignment.butterfly.Butterfly;
+import com.singtel.assignment.butterfly.CatterpillarState;
 import com.singtel.assignment.fish.ClownFish;
 import com.singtel.assignment.fish.Dolphin;
 import com.singtel.assignment.fish.Shark;
 import com.singtel.assignment.util.AnimalType;
+import com.singtel.assignment.util.InsectState;
 import com.singtel.assignment.util.NeighbourType;
 
 public class AnimalFactory {
@@ -42,6 +46,8 @@ public class AnimalFactory {
 			return new ClownFish();
 		case DOLPHIN:
 			return new Dolphin();
+		case BUTTERFLY:
+			return new Butterfly(InsectState.CATERPILLAR);
 		default:
 			return null;
 		}
